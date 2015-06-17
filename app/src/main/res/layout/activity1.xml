@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="left"
+              android:background="@drawable/main_menu_selector">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageActivity1"
+            android:src="@mipmap/ic_launcher"
+            android:transitionName="img1"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/activity_1_text"
+            android:id="@+id/textActivity1" android:layout_gravity="center_horizontal"
+            android:transitionName="text1"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:text="I once had a turtle named Novel who we always thought was a girl. We
+treated her like a girl and we caller her a girl the whole time. Then when we got bored
+of the turtle we gave her back to the place we got her and she started mating with all
+the female turtles. Turns out Novel was a dude the whole time."
+            android:id="@+id/editText" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

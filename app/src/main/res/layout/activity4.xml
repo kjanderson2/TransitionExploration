@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="left"
+              android:background="@drawable/main_menu_selector">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:transitionName="img4"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/activity_4_text"
+            android:id="@+id/textActivity4" android:layout_gravity="center_horizontal"
+            android:transitionName="text4"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:text="Activity 4 words.... Two days past eighteen he was waiting for the bus in his army green
+sat down in a booth cafe there gave his order to a girl with a bow in her hair. He's
+a little shy so she give him a smile and he said would you mind sitting down for a while
+and talking to me, I'm feeling a little low. She said I'm off in an hour and I know where
+we can go."
+            android:id="@+id/editText" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

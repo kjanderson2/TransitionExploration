@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:background="@drawable/main_menu_selector">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:transitionName="img5"/>
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/backgroundActivity5">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/activity_5_text"
+                android:id="@+id/textActivity5"
+                android:transitionName="text5"
+                android:gravity="center_horizontal" android:layout_centerHorizontal="true"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:text="Activity 5 words.... So they went down and they sat on the pier he said
+I bet you got a boyfriend but I don't care I got no one... to send a letter to. Would you mind
+if I sent one back here to you? So the letters came from an army camp in California then
+Vietnam and they told her of his heart what might be love and all of the the things he
+was so scared of."
+                android:id="@+id/editText"
+                android:layout_gravity="center_horizontal" android:layout_below="@+id/textActivity5"
+                android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity"
+                android:background="@drawable/main_menu_selector">
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_container"
+            android:focusable="false"
+            android:baselineAligned="false">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/Activity7selector"
+                      android:background="?android:attr/selectableItemBackground" android:clickable="true"
+                        >
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/imageActivity7"
+                       android:src="@mipmap/ic_launcher"
+                    android:transitionName="img7" android:padding="5dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:text="@string/activity_7_text" android:id="@+id/textActivity7"
+                      android:layout_gravity="center"
+                    android:transitionName="text7"/>
+        </LinearLayout>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20px"
+                />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/Activity1selector"
+                      android:background="?android:attr/selectableItemBackground"
+                      android:focusable="false" android:clickable="true"
+                      android:layout_below="@+id/scrollView" android:layout_alignParentStart="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/imageActivity1"
+                       android:src="@mipmap/ic_launcher"
+                       android:transitionName="image1" android:padding="5dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:text="@string/activity_1_text"
+                      android:id="@+id/textActivity1"
+                      android:layout_gravity="center_vertical"
+                      android:transitionName="text1"/>
+        </LinearLayout>
+        <Space android:layout_width="match_parent" android:layout_height="20px"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Activity2selector"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true" android:layout_below="@+id/Activity1selector"
+                android:layout_alignParentStart="true">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageActivity2"
+                    android:src="@mipmap/ic_launcher"
+                    android:transitionName="img2" android:padding="5dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/activity_2_text"
+                    android:id="@+id/textActivity2" android:layout_gravity="center_vertical"
+                    android:transitionName="text2"/>
+        </LinearLayout>
+        <Space android:layout_width="match_parent" android:layout_height="20px"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Activity3selector"
+                android:background="?android:attr/selectableItemBackground" android:clickable="true"
+                android:layout_below="@+id/Activity2selector" android:layout_alignParentStart="true">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageActivity3"
+                    android:src="@mipmap/ic_launcher"
+                    android:transitionName="img3" android:padding="5dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/activity_3_text"
+                    android:id="@+id/textActivity3" android:layout_gravity="center_vertical"
+                    android:transitionName="text3"/>
+        </LinearLayout>
+        <Space android:layout_width="match_parent" android:layout_height="20px"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Activity4selector"
+                android:background="?android:attr/selectableItemBackground" android:clickable="true"
+                android:layout_below="@+id/Activity3selector" android:layout_alignParentEnd="true">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageActivity4"
+                    android:src="@mipmap/ic_launcher"
+                    android:transitionName="img4" android:padding="5dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/activity_4_text"
+                    android:id="@+id/textActivity4" android:layout_gravity="center_vertical"
+                    android:transitionName="text4"/>
+        </LinearLayout>
+        <Space android:layout_width="match_parent" android:layout_height="20px"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Activity5selector"
+                android:background="?android:attr/selectableItemBackground" android:clickable="true"
+                android:layout_below="@+id/Activity4selector"
+                android:layout_alignParentEnd="true">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageActivity5"
+                    android:src="@mipmap/ic_launcher"
+                    android:transitionName="img5"
+                    android:padding="5dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/activity_5_text"
+                    android:id="@+id/textActivity5"
+                    android:layout_gravity="center_vertical"
+                    android:transitionName="text5"/>
+        </LinearLayout>
+        <Space android:layout_width="match_parent" android:layout_height="20px"/>
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/Activity6selector"
+                      android:background="?android:attr/selectableItemBackground" android:clickable="true"
+                      android:layout_below="@+id/Activity5selector"
+                      android:layout_alignParentEnd="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/imageActivity6"
+                       android:src="@mipmap/ic_launcher"
+                       android:transitionName="img6"
+                       android:padding="5dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:text="@string/activity_6_text" android:id="@+id/textActivity6"
+                      android:layout_gravity="center_vertical"
+                      android:transitionName="text6"/>
+        </LinearLayout>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                />
+
+    </LinearLayout>
+</ScrollView>
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:textOn="Show All"
+            android:textOff="Hide All"
+            android:id="@+id/toggleButton"
+            android:onClick="toggleClicked"
+            android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

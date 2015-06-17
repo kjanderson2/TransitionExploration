@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="left"
+              android:background="@drawable/main_menu_selector">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:transitionName="img3"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/activity_3_text"
+            android:id="@+id/textActivity3" android:layout_gravity="center_horizontal"
+            android:transitionName="text3"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:text="This is the text for the 3rd activity. I'm running out of things to say
+which is worrisome because there are several activities left to put information in.
+Oh well, I guess I'll ramble one for a while just because I need to know that each
+activity is different and is pulling up the right information."
+            android:id="@+id/editText" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

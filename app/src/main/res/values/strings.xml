@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TransitionExploration</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_5_text">Circular Reveal</string>
+    <string name="activity_1_text">Content Transition 1</string>
+    <string name="activity_2_text">Content Transition 2</string>
+    <string name="activity_3_text">1 Shared Element</string>
+    <string name="activity_4_text">2 Shared Elements</string>
+    <string name="activity_6_text">Custom Circular Reveal</string>
+    <string name="activity_7_text">No Transition</string>
+    <string name="img_description"/>
+    <string name="Activity_6_text">Activity 6 words.... Sometimes when it gets a little rough over
+        here I think of that day sitting down on the pier and I close my eyes and see your pretty
+        smile. Don\'t worry but I won\'t be able to write for a while. I-i-i cry never gonna hold
+        the hand of another guy. Too young but then they told her, waiting fo rht elove of the
+        traveling soldier
+    </string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="start"
+              android:background="@drawable/main_menu_selector">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:transitionName="img6" android:contentDescription="@string/img_description"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/activity_6_text"
+            android:id="@+id/textActivity6" android:layout_gravity="center_horizontal"
+            android:transitionName="text6" />
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+            android:id="@+id/backgroundActivity6"
+            android:visibility="invisible">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:text="@string/Activity_6_text"
+            android:id="@+id/editText" android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/textActivity6" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+</LinearLayout>

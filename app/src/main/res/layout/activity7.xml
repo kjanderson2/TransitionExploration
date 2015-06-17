@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:gravity="left"
+              android:background="@drawable/main_menu_selector">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher"
+            android:transitionName="img7"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/activity_7_text"
+            android:id="@+id/textActivity7" android:layout_gravity="center_horizontal"
+            android:transitionName="text7"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:text="Activity 7 words.... Our love will never end waiting for the soldier to come
+back again never more to be alone when the letter said soldier's coming home. Friday night
+at the football game., the lord's prayer said and the anthem sang a man said folks bow your
+head for a list of local Vietnam dead."
+            android:id="@+id/editText" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

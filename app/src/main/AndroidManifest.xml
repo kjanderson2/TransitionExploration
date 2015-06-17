@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kjanderson2.transitionexploration" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity1" android:label="Content Transition" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Activity2" android:label="Content Transition" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Activity3" android:label="Shared Element" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Activity4" android:label="Shared Elements" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Activity5" android:label="Reveal Effect" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Activity6" android:label="Reveal Effect" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Activity7" android:label="No Transition" android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>
